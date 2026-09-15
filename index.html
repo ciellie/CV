@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV | IT Leader & Senior Business Analyst</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background: #f4f6f8;
+            color: #1f2933;
+        }
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+        header {
+            background: #17212b;
+            color: white;
+            padding: 60px 0;
+        }
+        .hero {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 2.7rem;
+            margin-bottom: 10px;
+        }
+        .hero h2 {
+            font-size: 1.25rem;
+            font-weight: normal;
+            color: #cdd6df;
+            margin-bottom: 20px;
+        }
+        .hero p { color: #e7edf2; }
+        .contact-card {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 24px;
+            border-radius: 10px;
+        }
+        .contact-card h3 { margin-bottom: 15px; }
+        .contact-card p { margin: 8px 0; }
+        .contact-card a { color: white; }
+        nav {
+            background: white;
+            border-bottom: 1px solid #d9e0e6;
+            position: sticky;
+            top: 0;
+        }
+        nav .container {
+            display: flex;
+            gap: 25px;
+            padding: 15px 0;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #17212b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section { padding: 55px 0; }
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            color: #17212b;
+        }
+        .card {
+            background: white;
+            padding: 28px;
+            border-radius: 10px;
+            border: 1px solid #dde4ea;
+            margin-bottom: 22px;
+        }
+        .profile p { margin-bottom: 15px; }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+        .skill {
+            background: white;
+            border: 1px solid #dde4ea;
+            padding: 16px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        .job-header span { color: #66737f; }
+        ul { padding-left: 22px; }
+        li { margin-bottom: 9px; }
+        .note {
+            background: #fff8e6;
+            border-left: 4px solid #d5a021;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        footer {
+            background: #17212b;
+            color: #d7e0e8;
+            text-align: center;
+            padding: 25px 0;
+        }
+        @media (max-width: 760px) {
+            .hero { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container hero">
+        <div>
+            <h1>Your Name</h1>
+            <h2>Senior Business Analyst | Academic Digital Transformation | IT Leadership</h2>
+            <p>
+                Visionary IT leader with extensive experience in academic digital transformation,
+                driving the design, implementation, and governance of enterprise systems that
+                enhance teaching, learning, and research at North-West University.
+            </p>
+        </div>
+
+        <div class="contact-card">
+            <h3>Contact</h3>
+            <p><strong>Name:</strong> Your Name</p>
+            <p><strong>Phone:</strong> Add contact number</p>
+            <p><strong>Email:</strong> Add email address</p>
+            <p><strong>LinkedIn:</strong> <a href="#" target="_blank">Add LinkedIn profile</a></p>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <div class="container">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<main>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="card profile">
+                <p>
+                    I am an experienced IT leader and Senior Business Analyst specialising in
+                    academic digital transformation. My work focuses on designing and integrating
+                    enterprise systems that improve the student experience, strengthen governance,
+                    and support teaching, learning, research, and administration.
+                </p>
+                <p>
+                    I am responsible for shaping sustainable, student-centred technology ecosystems
+                    aligned with North-West University's strategic goals. I work closely with
+                    executive leadership, academic stakeholders, vendors, developers, and
+                    cross-functional teams to ensure that technology solutions support institutional
+                    priorities and academic excellence.
+                </p>
+                <p>
+                    My passion is using technology strategically to simplify complex processes,
+                    improve interoperability, and create measurable value. I aspire to continue
+                    leading large-scale digital transformation initiatives and helping organisations
+                    make informed technology decisions that have a long-term positive impact.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills & Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill">Business Analysis</div>
+                <div class="skill">Digital Transformation</div>
+                <div class="skill">Enterprise Systems Integration</div>
+                <div class="skill">Learning Management Systems</div>
+                <div class="skill">Student Information Systems</div>
+                <div class="skill">IT Governance</div>
+                <div class="skill">Data Warehousing</div>
+                <div class="skill">Data Mining</div>
+                <div class="skill">Power Platform</div>
+                <div class="skill">Process Automation</div>
+                <div class="skill">Stakeholder Management</div>
+                <div class="skill">Strategic Consultation</div>
+                <div class="skill">Vendor Management</div>
+                <div class="skill">Systems Interoperability</div>
+                <div class="skill">Team Leadership & Mentoring</div>
+                <div class="skill">Academic Technology Strategy</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+
+            <div class="card">
+                <div class="job-header">
+                    <div>
+                        <h3>Senior Business Analyst</h3>
+                        <p>North-West University</p>
+                    </div>
+                    <span>Add employment dates</span>
+                </div>
+                <ul>
+                    <li>Lead the integration of the Anthology Student Information System (SIS) with the Brightspace/D2L Learning Management System.</li>
+                    <li>Collaborate with LMS and SIS vendors and developers to ensure alignment with academic models.</li>
+                    <li>Provide strategic consultation to the Deputy Vice-Chancellor, Deans, and staff.</li>
+                    <li>Advocate for student-centric systems that support academic excellence.</li>
+                    <li>Oversee the Teaching and Learning Analytical Warehouse and Power Platform projects.</li>
+                    <li>Drive automation, interoperability, and governance improvements across teaching and learning systems.</li>
+                    <li>Mentor cross-functional teams and teach postgraduate courses in Data Warehousing and Data Mining.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="job-header">
+                    <div>
+                        <h3>ICT Instructor</h3>
+                        <p>North-West University</p>
+                    </div>
+                    <span>Jan 2000 – Dec 2002</span>
+                </div>
+                <p>
+                    Delivered ICT instruction and supported the development of technology skills
+                    within the university environment.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="card">
+                <h3>Add Qualification</h3>
+                <p>Add institution and completion year.</p>
+
+                <br>
+
+                <h3>Add Additional Qualification</h3>
+                <p>Add institution and completion year.</p>
+
+                <div class="note">
+                    Replace the placeholder education information with your actual qualifications
+                    before submitting the task.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Details</h2>
+            <div class="card">
+                <p><strong>Name:</strong> Your Name</p>
+                <p><strong>Contact number:</strong> Add contact number</p>
+                <p><strong>Email:</strong> Add email address</p>
+                <p><strong>LinkedIn:</strong> <a href="#" target="_blank">Add LinkedIn profile URL</a></p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Your Name | Online CV</p>
+    </div>
+</footer>
+
+</body>
+</html>
